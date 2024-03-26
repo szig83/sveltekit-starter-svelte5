@@ -1,5 +1,9 @@
 {
 	"$schema": "https://inlang.com/schema/inlang-message-format",
-	"app_title": "App title",
-	"about": "About"
+	"app_title": "Website title",
+	"about": "About",
+	"btnDetails": "Details",
+	"btnBack": "Back",
+	"helloBello": "Ingyom binygom",
+	"valami": "Something"
 }

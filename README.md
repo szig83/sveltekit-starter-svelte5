@@ -7,3 +7,5 @@
 - https://jakearchibald.github.io/svgomg/
 - https://iconify.design/
 - https://inlang.com/m/dxnzrydw/library-inlang-paraglideJsAdapterSvelteKit
+- https://realfavicongenerator.net/
+- https://www.opengraph.xyz/
