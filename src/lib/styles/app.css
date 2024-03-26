@@ -1,0 +1,172 @@
+/* handy css variables from https://open-props.style/ */
+@import 'open-props/easings';
+@import 'open-props/shadows';
+
+@tailwind base;
+
+@layer base {
+	/*
+		Additional "resets" based on Josh's article:
+		https://www.joshwcomeau.com/css/custom-css-reset/
+	*/
+	*,
+	*::before,
+	*::after {
+		box-sizing: border-box;
+	}
+
+	body {
+		-webkit-font-smoothing: antialiased;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		isolation: isolate;
+		min-height: 100svh;
+	}
+
+	input,
+	button,
+	textarea,
+	select {
+		font: inherit;
+	}
+	p,
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		overflow-wrap: break-word;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		text-wrap: balance;
+	}
+
+	p {
+		text-wrap: pretty;
+	}
+
+	:root {
+		--font-sans: 'Inter Variable', system-ui, sans-serif;
+		--font-head: 'Oswald Variable', var(--font-sans);
+		--padding-inline: clamp(1rem, 5vw, 3rem);
+		--radius: 1rem;
+	}
+
+	/* light theme setup */
+	:root {
+		color-scheme: light;
+	}
+
+	/* dark theme setup */
+	[data-theme='dark'] {
+		color-scheme: dark;
+	}
+
+	html {
+		@apply transition-colors;
+	}
+
+	/* SmolCSS Stephanie + Kevin-style breakout grid
+	https://www.youtube.com/watch?v=c13gpBrnGEw */
+	.content-grid,
+	.full-width {
+		--_content-max-width: 70ch;
+		--_breakout-max-width: 90ch;
+
+		--_full-width-size: minmax(var(--padding-inline), 1fr);
+		--_breakout-size: minmax(0, calc((var(--_breakout-max-width) - var(--_content-max-width)) / 2));
+		--_content-size: min(100% - var(--padding-inline) * 2, var(--_content-max-width));
+
+		display: grid;
+		grid-template-columns:
+			[full-width-start] var(--_full-width-size)
+			[breakout-start] var(--_breakout-size)
+			[content-start] var(--_content-size) [content-end]
+			var(--_breakout-size) [breakout-end]
+			var(--_full-width-size) [full-width-end];
+
+		> :not(.breakout, .full-width) {
+			grid-column: content;
+		}
+
+		> .breakout {
+			grid-column: breakout;
+		}
+
+		> .full-width {
+			grid-column: full-width;
+		}
+	}
+
+	body {
+		view-transition-name: body;
+	}
+
+	/* "normal" navigation */
+	@keyframes fade-out-to-left {
+		to {
+			transform: translateX(-50%);
+			opacity: 0%;
+		}
+	}
+
+	@keyframes slide-from-right {
+		from {
+			transform: translateX(100%);
+		}
+	}
+
+	/* "back" navigation */
+	@keyframes fade-out-to-right {
+		to {
+			transform: translateX(50%);
+			opacity: 0%;
+		}
+	}
+
+	@keyframes slide-from-left {
+		from {
+			transform: translateX(-100%);
+		}
+	}
+
+	@media (prefers-reduced-motion: no-preference) {
+		/* :root::view-transition-old(body) {
+			animation: 300ms ease-out both fade-out-to-left;
+			pointer-events: none;
+		}
+
+		:root::view-transition-new(body) {
+			animation: 300ms ease-out both slide-from-right;
+			pointer-events: none;
+		} */
+
+		/* "back" navigation */
+		/* :root[data-back]::view-transition-old(body) {
+			animation: 300ms ease-out both fade-out-to-right;
+			pointer-events: none;
+		}
+
+		:root[data-back]::view-transition-new(body) {
+			animation: 300ms ease-out both slide-from-left;
+			pointer-events: none;
+		} */
+
+		/* smooth scrolling */
+		:has(:target) {
+			scroll-behavior: smooth;
+			scroll-padding-top: 4rem;
+		}
+	}
+}
+
+@tailwind components;
+@tailwind utilities;
