@@ -1,4 +1,5 @@
 <script>
+	import Card from '$lib/components/Card.svelte'
 	import Hero from '$lib/components/Hero.svelte'
 	import PageTitle from '$lib/components/PageTitle.svelte'
 </script>
@@ -11,3 +12,10 @@
 	magnam laboriosam accusantium exercitationem debitis animi doloribus voluptate quibusdam quis
 	cupiditate, commodi iusto veniam in perferendis esse.
 </p>
+
+<div class="flex justify-between gap-4">
+	<Card name="mechanicer" />
+	<Card name="firefighter" />
+	<Card name="gardener" />
+	<Card name="cop" />
+</div>

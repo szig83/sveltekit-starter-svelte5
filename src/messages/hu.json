@@ -1,5 +1,9 @@
 {
 	"$schema": "https://inlang.com/schema/inlang-message-format",
 	"app_title": "Weboldal cím",
-	"about": "Rólunk"
+	"about": "Rólunk",
+	"btnDetails": "Tovább...",
+	"btnBack": "Vissza",
+	"helloBello": "Hello bello",
+	"valami": "Lorem ipsum dolor"
 }
