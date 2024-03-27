@@ -1,10 +1,10 @@
 {
-	"name": "project-03",
+	"name": "sveltekit-starter-svelte5",
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
-		"build": "paraglide-js compile --project ./project.inlang && vite build",
+		"build": "vite build",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
@@ -12,21 +12,21 @@
 		"test:e2e": "playwright test",
 		"lint": "prettier --check . && eslint .",
 		"format": "prettier --write .",
-		"update:dep": "ncu --pre 1 --target newest -ui --format group --install always --packageManager pnpm",
-		"generate:i18n": "paraglide-js compile --project ./project.inlang"
+		"update:dep": "ncu --target newest -ui --format group --install always --packageManager bun"
 	},
 	"devDependencies": {
 		"@fontsource-variable/inter": "^5.0.17",
-		"@playwright/test": "^1.43.0-alpha-2024-03-26",
+		"@fontsource-variable/oswald": "^5.0.19",
+		"@playwright/test": "^1.42.1",
 		"@sveltejs/adapter-auto": "^3.1.1",
 		"@sveltejs/kit": "^2.5.4",
 		"@sveltejs/vite-plugin-svelte": "^3.0.2",
 		"@types/eslint": "^8.56.6",
 		"@types/node": "^20.11.30",
-		"@typescript-eslint/eslint-plugin": "^7.4.1-alpha.0",
-		"@typescript-eslint/parser": "^7.4.1-alpha.0",
+		"@typescript-eslint/eslint-plugin": "^7.4.0",
+		"@typescript-eslint/parser": "^7.4.0",
 		"autoprefixer": "^10.4.19",
-		"daisyui": "latest",
+		"daisyui": "^4.9.0",
 		"eslint": "^8.57.0",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-svelte": "^2.36.0-next.13",
@@ -37,23 +37,19 @@
 		"prettier-plugin-css-order": "^2.1.1",
 		"prettier-plugin-svelte": "^3.2.2",
 		"prettier-plugin-tailwindcss": "^0.5.12",
-		"svelte": "^5.0.0-next.84",
+		"svelte": "^5.0.0-next.85",
 		"svelte-check": "^3.6.8",
 		"tailwindcss": "^3.4.1",
 		"tslib": "^2.6.2",
-		"typescript": "^5.5.0-dev.20240326",
+		"typescript": "^5.4.3",
 		"vite": "^5.2.6",
 		"vitest": "^1.4.0",
-		"@inlang/cli": "^2.13.3",
-		"@inlang/paraglide-js": "1.3.4",
-		"@inlang/paraglide-js-adapter-sveltekit": "^0.5.15"
+		"@inlang/paraglide-js": "1.3.5",
+		"@inlang/paraglide-js-adapter-sveltekit": "^0.5.16"
 	},
 	"type": "module",
 	"packageManager": "bun@1.0.33",
 	"engines": {
 		"node": ">=20"
-	},
-	"dependencies": {
-		"@fontsource-variable/oswald": "^5.0.19"
 	}
 }
