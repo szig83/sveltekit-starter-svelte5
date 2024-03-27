@@ -18,8 +18,8 @@ const config = {
 		adapter: adapter(),
 		alias: {
 			$styles: './src/lib/styles',
-			$m: './src/paraglide/messages.js',
-			$paraglide: './src/paraglide/*',
+			$m: './src/lib/paraglide/messages.js',
+			$paraglide: './src/lib/paraglide/*',
 		},
 	},
 }
