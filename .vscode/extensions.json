@@ -19,7 +19,6 @@
 		"bradlc.vscode-tailwindcss",
 		"rangav.vscode-thunder-client",
 		"wayou.vscode-todo-highlight",
-		"ms-playwright.playwright",
-		"codezombiech.gitignore"
+		"ms-playwright.playwright"
 	]
 }

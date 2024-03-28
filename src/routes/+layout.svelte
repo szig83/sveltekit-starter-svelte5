@@ -2,19 +2,20 @@
 	import '$styles/app.css'
 	import { ParaglideJS } from '@inlang/paraglide-js-adapter-sveltekit'
 	import { i18n } from '$lib/i18n.js'
+	import '@fontsource-variable/inter'
+	import '@fontsource-variable/oswald'
+	import { onNavigate } from '$app/navigation'
+	import type { Snippet } from 'svelte'
 
 	import Header from '$lib/components/Header.svelte'
-	import { onNavigate } from '$app/navigation'
 	import Footer from '$lib/components/Footer.svelte'
 
-	import '@fontsource-variable/inter'
-	// Supports weights 200-700
-	import '@fontsource-variable/oswald'
-	import type { Snippet } from 'svelte'
 	type Props = {
 		children: Snippet
 	}
 	const { children }: Props = $props()
+
+	const title = $state('Weboldal title')
 
 	onNavigate((navigation) => {
 		if (document.startViewTransition && navigation.from?.url.href !== navigation.to?.url.href) {
@@ -39,6 +40,10 @@
 		document.documentElement.dataset.testid = 'hydrated'
 	})
 </script>
+
+<svelte:head>
+	<title>{title}</title>
+</svelte:head>
 
 <ParaglideJS {i18n}>
 	<Header />
