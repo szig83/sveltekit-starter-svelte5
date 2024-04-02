@@ -1,0 +1,113 @@
+{
+  stack: 'Error: Not found: /asda\n' +
+    '    at resolve (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)\n' +
+    '    at resolve (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)\n' +
+    '    at resolve (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/@sveltejs/kit/src/exports/hooks/sequence.js:115:9)\n' +
+    '    at customHandle (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/src/hooks.server.ts:25:25)\n' +
+    '    at apply_handle (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/@sveltejs/kit/src/exports/hooks/sequence.js:85:11)\n' +
+    '    at resolve (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/@sveltejs/kit/src/exports/hooks/sequence.js:110:9)\n' +
+    '    at /Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/@inlang/paraglide-js-adapter-sveltekit/dist/runtime/hooks/handle.js:23:16\n' +
+    '    at apply_handle (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/@sveltejs/kit/src/exports/hooks/sequence.js:85:11)\n' +
+    '    at Object.eval [as handle] (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/@sveltejs/kit/src/exports/hooks/sequence.js:74:10)\n' +
+    '    at Module.respond (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)',
+  status: 404,
+  text: 'Not Found',
+  level: 'error',
+  timestamp: '2024-03-31T15:53:40.537Z'
+}
+{
+  stack: 'Error: Not found: /dsfs\n' +
+    '    at resolve (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)\n' +
+    '    at resolve (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)\n' +
+    '    at resolve (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/@sveltejs/kit/src/exports/hooks/sequence.js:115:9)\n' +
+    '    at customHandle (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/src/hooks.server.ts:25:25)\n' +
+    '    at apply_handle (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/@sveltejs/kit/src/exports/hooks/sequence.js:85:11)\n' +
+    '    at resolve (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/@sveltejs/kit/src/exports/hooks/sequence.js:110:9)\n' +
+    '    at /Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/@inlang/paraglide-js-adapter-sveltekit/dist/runtime/hooks/handle.js:23:16\n' +
+    '    at apply_handle (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/@sveltejs/kit/src/exports/hooks/sequence.js:85:11)\n' +
+    '    at Object.eval [as handle] (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/@sveltejs/kit/src/exports/hooks/sequence.js:74:10)\n' +
+    '    at Module.respond (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)',
+  status: 404,
+  text: 'Not Found',
+  level: 'error',
+  timestamp: '2024-03-31 17:56:50'
+}
+{
+  stack: 'Error: Not found: /dsfs\n' +
+    '    at resolve (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)\n' +
+    '    at resolve (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)\n' +
+    '    at resolve (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/@sveltejs/kit/src/exports/hooks/sequence.js:115:9)\n' +
+    '    at customHandle (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/src/hooks.server.ts:25:25)\n' +
+    '    at apply_handle (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/@sveltejs/kit/src/exports/hooks/sequence.js:85:11)\n' +
+    '    at resolve (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/@sveltejs/kit/src/exports/hooks/sequence.js:110:9)\n' +
+    '    at /Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/@inlang/paraglide-js-adapter-sveltekit/dist/runtime/hooks/handle.js:23:16\n' +
+    '    at apply_handle (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/@sveltejs/kit/src/exports/hooks/sequence.js:85:11)\n' +
+    '    at Object.eval [as handle] (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/@sveltejs/kit/src/exports/hooks/sequence.js:74:10)\n' +
+    '    at Module.respond (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)',
+  status: 404,
+  text: 'Not Found',
+  level: 'error',
+  timestamp: '2024-03-31 18:09:48'
+}
+{
+  stack: 'Error: Not found: /dsfs\n' +
+    '    at resolve (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)\n' +
+    '    at resolve (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)\n' +
+    '    at resolve (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/@sveltejs/kit/src/exports/hooks/sequence.js:115:9)\n' +
+    '    at customHandle (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/src/hooks.server.ts:25:25)\n' +
+    '    at apply_handle (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/@sveltejs/kit/src/exports/hooks/sequence.js:85:11)\n' +
+    '    at resolve (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/@sveltejs/kit/src/exports/hooks/sequence.js:110:9)\n' +
+    '    at /Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/@inlang/paraglide-js-adapter-sveltekit/dist/runtime/hooks/handle.js:23:16\n' +
+    '    at apply_handle (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/@sveltejs/kit/src/exports/hooks/sequence.js:85:11)\n' +
+    '    at Object.eval [as handle] (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/@sveltejs/kit/src/exports/hooks/sequence.js:74:10)\n' +
+    '    at Module.respond (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)',
+  status: 404,
+  text: 'Not Found',
+  level: 'error',
+  timestamp: '2024-03-31 20:27:43'
+}
+{
+  stack: 'ReferenceError: y is not defined\n' +
+    '    at _page (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/src/routes/hero/[slug]/+page.svelte:13:10)\n' +
+    '    at /Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/.svelte-kit/generated/root.svelte:45:41\n' +
+    '    at /Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/src/routes/+layout.svelte:51:20\n' +
+    '    at Module.slot (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/svelte/src/internal/server/index.js:536:3)\n' +
+    '    at ParaglideJS (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/@inlang/paraglide-js-adapter-sveltekit/dist/runtime/ParaglideJS.svelte:191:25)\n' +
+    '    at _layout (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/src/routes/+layout.svelte:97:77)\n' +
+    '    at Root (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/.svelte-kit/generated/root.svelte:44:40)\n' +
+    '    at Module.render (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/svelte/src/internal/server/index.js:198:2)\n' +
+    '    at Function._render [as render] (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/svelte/src/legacy/legacy-server.js:26:18)\n' +
+    '    at Module.render_response (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/@sveltejs/kit/src/runtime/server/page/render.js:171:29)',
+  level: 'error',
+  timestamp: '2024-03-31 20:51:26'
+}
+{
+  stack: 'ReferenceError: y is not defined\n' +
+    '    at _page (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/src/routes/hero/[slug]/+page.svelte:13:10)\n' +
+    '    at /Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/.svelte-kit/generated/root.svelte:45:41\n' +
+    '    at /Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/src/routes/+layout.svelte:51:20\n' +
+    '    at Module.slot (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/svelte/src/internal/server/index.js:536:3)\n' +
+    '    at ParaglideJS (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/@inlang/paraglide-js-adapter-sveltekit/dist/runtime/ParaglideJS.svelte:191:25)\n' +
+    '    at _layout (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/src/routes/+layout.svelte:97:77)\n' +
+    '    at Root (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/.svelte-kit/generated/root.svelte:44:40)\n' +
+    '    at Module.render (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/svelte/src/internal/server/index.js:198:2)\n' +
+    '    at Function._render [as render] (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/svelte/src/legacy/legacy-server.js:26:18)\n' +
+    '    at Module.render_response (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/@sveltejs/kit/src/runtime/server/page/render.js:171:29)',
+  level: 'error',
+  timestamp: '2024-03-31 21:33:18'
+}
+{
+  stack: 'ReferenceError: y is not defined\n' +
+    '    at _page (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/src/routes/hero/[slug]/+page.svelte:13:10)\n' +
+    '    at /Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/.svelte-kit/generated/root.svelte:45:41\n' +
+    '    at /Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/src/routes/+layout.svelte:51:20\n' +
+    '    at Module.slot (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/svelte/src/internal/server/index.js:536:3)\n' +
+    '    at ParaglideJS (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/@inlang/paraglide-js-adapter-sveltekit/dist/runtime/ParaglideJS.svelte:191:25)\n' +
+    '    at _layout (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/src/routes/+layout.svelte:97:77)\n' +
+    '    at Root (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/.svelte-kit/generated/root.svelte:44:40)\n' +
+    '    at Module.render (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/svelte/src/internal/server/index.js:198:2)\n' +
+    '    at Function._render [as render] (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/svelte/src/legacy/legacy-server.js:26:18)\n' +
+    '    at Module.render_response (/Volumes/Data/Work/projects/javascript/svelte/sveltekit-starter-svelte5/node_modules/@sveltejs/kit/src/runtime/server/page/render.js:171:29)',
+  level: 'error',
+  timestamp: '2024-03-31 21:38:49'
+}
