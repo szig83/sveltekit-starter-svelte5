@@ -5,5 +5,8 @@
 	"btnDetails": "Details",
 	"btnBack": "Back",
 	"helloBello": "Ingyom binygom",
-	"valami": "Something"
+	"valami": "Something",
+	"error": "Error",
+	"status": "Status",
+	"log": "Error logs"
 }

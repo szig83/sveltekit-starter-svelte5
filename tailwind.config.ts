@@ -36,9 +36,10 @@ const config: Config = {
 		},
 	},
 	daisyui: {
+		logs: false,
 		themes: [
 			{ light: { ...themes.emerald, ...themeOverrides } },
-			{ dark: { ...themes.dracula, ...themeOverrides } },
+			{ dark: { ...themes.dim, ...themeOverrides } },
 		],
 	},
 	plugins: [daisyui],

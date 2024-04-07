@@ -10,7 +10,7 @@
 		return data.lang === sourceLanguageTag ? `/` : `/${data.lang}`
 	})
 
-	let x = y / 0
+	// let x = y / 0
 </script>
 
 <h1 style={`view-transition-name: card-title-${data.slug}`}>{cardTitle}</h1>

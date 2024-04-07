@@ -5,5 +5,8 @@
 	"btnDetails": "Tovább...",
 	"btnBack": "Vissza",
 	"helloBello": "Hello bello",
-	"valami": "Lorem ipsum dolor"
+	"valami": "Lorem ipsum dolor",
+	"error": "Hiba",
+	"status": "Státusz",
+	"log": "Hiba napló"
 }

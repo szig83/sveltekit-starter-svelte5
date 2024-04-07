@@ -9,3 +9,4 @@
 - https://inlang.com/m/dxnzrydw/library-inlang-paraglideJsAdapterSvelteKit
 - https://realfavicongenerator.net/
 - https://www.opengraph.xyz/
+- https://orm.drizzle.team/
