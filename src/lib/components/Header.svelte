@@ -25,6 +25,7 @@
 		<ul class="menu menu-horizontal items-center px-1">
 			<li><a class="btn btn-ghost" href="/about">{m.about()}</a></li>
 			<li><a class="btn btn-ghost" href="/logs">{m.log()}</a></li>
+			<li><a class="btn btn-ghost" href="/test">Test</a></li>
 			<li>
 				<button onclick={window.toggleTheme}><ThemeToggleIcon class="w-4" /></button>
 			</li>

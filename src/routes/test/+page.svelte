@@ -1,20 +1,37 @@
 <script lang="ts">
-	import * as Table from '$lib/components/table'
-	import { SnippetReturn } from 'svelte'
+	import Footer from '$lib/components/Footer.svelte'
+	import * as DataTable from '$lib/components/datatable'
+	import LogListItem from './LogListItem.svelte'
+	type Props = {
+		data: {
+			dataTable: DataTable.IDataTableDatas
+		}
+	}
 
-	const data = [
-		['1', '2', '3', 'dfdsf', 'fdfs'],
-		['4', '5', '6', 'sdsd', 'sdsd'],
-		['7', '8', '9', '4t53', 'freee'],
-	]
+	const { data }: Props = $props()
+	let dt = $state(data.dataTable)
+	let dataTable = $derived(data.dataTable)
+
+	// $inspect('dataTable:', dataTable)
+
+	$effect(() => {
+		dt = { ...data.dataTable }
+		//console.log('x', dataTable)
+	})
 </script>
 
-<Table.Root {data}>
-	<Table.Filter />
-
-	<div class="flex justify-between">
-		<Table.DisplayRows>Egyedi display rows</Table.DisplayRows>
-		<Table.RowInfo />
-		<Table.Pager />
-	</div>
-</Table.Root>
+<DataTable.Root {...dt}>
+	<!-- <Table.Filter /> -->
+	<DataTable.Data>
+		<div class="my-3 flex flex-col gap-3">
+			{#if dataTable.data && dataTable.data.length > 0}
+				{#each dataTable.data! as logs, i (logs.id)}
+					<LogListItem {logs} />
+				{/each}
+			{:else}
+				<div class="text-center text-neutral-400">Nincs megjeleníthető adat.</div>
+			{/if}
+		</div>
+	</DataTable.Data>
+	<DataTable.Footer />
+</DataTable.Root>
