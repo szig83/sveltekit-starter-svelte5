@@ -19,3 +19,10 @@
 	<Card name="gardener" />
 	<Card name="cop" />
 </div>
+
+<input
+	type="file"
+	name="file"
+	accept="image/*"
+	class=" h-60 w-full rounded-md border border-slate-300 bg-transparent text-transparent file:hidden"
+/>

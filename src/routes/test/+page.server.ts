@@ -1,10 +1,10 @@
 import type { PageServerLoad } from './$types'
 import { db } from '$lib/server/db/'
-import { log } from '$lib/server/db/schema/log'
+import { log, type Log } from '$db/schema/log'
 import { desc, count, between } from 'drizzle-orm'
 import type { SQLiteSelect } from 'drizzle-orm/sqlite-core'
 import { redirect } from '@sveltejs/kit'
-import type { IDataTableDatas } from '$lib/components/datatable'
+import type { IDataTableDatas, IDataTableStateParams } from '$lib/components/datatable'
 
 export const load: PageServerLoad = async ({ url }) => {
 	console.log('lista adatlekérés')
@@ -110,6 +110,6 @@ export const load: PageServerLoad = async ({ url }) => {
 			totalRows: filteredTotalRows[0].count,
 			currentPage: page,
 			rowsPerPage: pageSize,
-		} as IDataTableDatas,
+		} as IDataTableDatas<Log> & IDataTableStateParams,
 	}
 }

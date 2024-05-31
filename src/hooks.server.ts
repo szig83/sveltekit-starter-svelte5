@@ -3,7 +3,7 @@ import { i18n } from '$lib/i18n.js'
 import { sequence } from '@sveltejs/kit/hooks'
 import { createLogger, transports, format } from 'winston'
 import { db } from '$lib/server/db/'
-import { log } from '$lib/server/db/schema/log'
+import { log } from '$db/schema/log'
 
 const { combine, timestamp, prettyPrint, colorize } = format
 

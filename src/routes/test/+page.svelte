@@ -1,10 +1,11 @@
 <script lang="ts">
 	import Footer from '$lib/components/Footer.svelte'
 	import * as DataTable from '$lib/components/datatable'
+	import { type Log } from '$db/schema/log'
 	import LogListItem from './LogListItem.svelte'
 	type Props = {
 		data: {
-			dataTable: DataTable.IDataTableDatas
+			dataTable: DataTable.IDataTableDatas<Log> & DataTable.IDataTableStateParams
 		}
 	}
 

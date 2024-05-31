@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { Log } from '$lib/server/db/schema/log'
+	import type { Log } from '../../database/schema/log'
 	import { goto } from '$app/navigation'
 	import LogListItem from './LogListItem.svelte'
 	import LogFilter from './LogFilter.svelte'

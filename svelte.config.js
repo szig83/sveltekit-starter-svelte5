@@ -20,6 +20,7 @@ const config = {
 			$styles: './src/lib/styles',
 			$m: './src/lib/paraglide/messages.js',
 			$paraglide: './src/lib/paraglide/*',
+			$db: './src/database/*',
 		},
 	},
 }

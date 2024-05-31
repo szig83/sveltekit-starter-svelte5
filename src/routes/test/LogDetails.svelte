@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { Log } from '$lib/server/db/schema/log'
+	import type { Log } from '../../database/schema/log'
 	import { languageTag } from '$lib/paraglide/runtime.js'
 	import { cn } from '$lib/utils'
 	import * as m from '$m'

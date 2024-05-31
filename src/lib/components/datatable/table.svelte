@@ -3,11 +3,12 @@
 	import { setContext, getAllContexts, getContext, tick } from 'svelte'
 	import { writable, type Writable } from 'svelte/store'
 	import { goto } from '$app/navigation'
-	import type { IDataTableDatas, IDataTable } from '.'
+	import type { IDataTable, IDataTableStateParams } from '.'
 	let loaded = $state(false)
 	type Props = {
 		children: Snippet
-	} & IDataTableDatas
+		data: unknown[]
+	} & IDataTableStateParams
 	const { children, ...restProps }: Props = $props()
 
 	let { rowsPerPage, currentPage, totalRows } = $derived(restProps)
@@ -60,12 +61,12 @@
 		loaded = true
 	})
 
-	const ctxTable = {
+	const ctxTable: IDataTable = {
 		rowsPerPage: writable(0),
 		currentPage: writable(0),
 		totalRows: writable(0),
 		onFilter: onFilter,
-	} as IDataTable
+	}
 	setContext('table', ctxTable)
 </script>
 

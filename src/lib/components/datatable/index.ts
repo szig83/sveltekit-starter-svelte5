@@ -5,11 +5,14 @@ import Footer from './footer.svelte'
 import RowInfo from './rowInfo.svelte'
 import RowsPerPageSwitcher from './rowsPerPageSwitcher.svelte'
 import Data from './data.svelte'
-import type { Log } from '$lib/server/db/schema/log'
+// import type { Log } from '$lib/server/db/schema/log'
 import { type Writable } from 'svelte/store'
 
-interface IDataTableDatas {
-	data?: Log[]
+interface IDataTableDatas<T> {
+	data: T[]
+}
+
+interface IDataTableStateParams {
 	rowsPerPage: number | Writable<number>
 	currentPage: number | Writable<number>
 	totalRows: number | Writable<number>
@@ -19,7 +22,7 @@ interface IDataTableFuntions {
 	onFilter: (page: number, displayRows: number) => void
 }
 
-interface IDataTable extends IDataTableDatas, IDataTableFuntions {}
+interface IDataTable extends IDataTableStateParams, IDataTableFuntions {}
 
 export {
 	Root,
@@ -32,4 +35,5 @@ export {
 	type IDataTableDatas,
 	type IDataTableFuntions,
 	type IDataTable,
+	type IDataTableStateParams,
 }
